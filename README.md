@@ -13,3 +13,5 @@ EDIT:
 <a href="https://www.theparallelthread.com/code/cronxLinux.zip">Linux Binary</a>
 </br>
 Note that swift has a bug that prevents statically linking the libraries. Thus I've made a little install script that places the lib folder in the place the cronx binary expects. I only use Foundation in cronx, but the lib folder here is the entire lib folder from the swift project just cause that was easier to package up. You can clean it out yourself if you want, most of it is unnecessary for just cronx. And if you compile it yourself you can have it link to the same Foundation library all your other Swift code links to, to save space. But it's there for convenience if you don't mind wasting some megs :)
+</br>
+Also note that everything in the lib folder included from the swift project belongs to the swift group; visit them at <a href="https://www.swift.org>Swift.org</a>
